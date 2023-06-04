@@ -206,10 +206,10 @@
 //   console.log(i, "i");
 // }
 
-outer: for (let i = 1; i <= 5; i++) {
-  inner: for (let j = 1; j <= 5; j++) {
-    if (i <= 2) break outer;
-    console.log(j, "j"); //10marta,1dan 10gacha raqamlar chiqadi
-  }
-  console.log(i, "i");
-}
+// outer: for (let i = 1; i <= 5; i++) {
+//   inner: for (let j = 1; j <= 5; j++) {
+//     if (i <= 2) break outer;
+//     console.log(j, "j"); //10marta,1dan 10gacha raqamlar chiqadi
+//   }
+//   console.log(i, "i");
+// }

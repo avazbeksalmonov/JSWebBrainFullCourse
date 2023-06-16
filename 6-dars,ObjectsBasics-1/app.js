@@ -108,14 +108,17 @@
 
 // let name = "Webbrain IT Academy";
 // let major = "Frontend";
-const acc1 = {
-  name: "Webbrain Academy",
-  major: "Frontend",
-  founded: 2022,
-  students: 1000,
-  mentors: 5,
-};
-
-for (let i in acc1) {
-  console.log(i);
-}
+// const acc1 = {
+//   name: "Webbrain Academy",
+//   major: "Frontend",
+//   founded: 2022,
+//   students: 1000,
+//   mentors: 5,
+// };
+// for (let i in acc1) {
+//   console.log(i);
+// }
+// major
+// founded
+// students
+// mentors

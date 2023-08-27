@@ -89,7 +89,7 @@
 // === Math === // build in function
 
 // console.log(Math.PI); //3.141592653589793
-// console.log(Math.abs(-10)); // 10
+// console.log(Math.abs(-10.3)); // 10
 // console.log(Math.round(2.5)); // 3 // Yaxlitlaydi tepaga
 // console.log(Math.round(2.4)); // 2 // Yaxlitlaydi pastga
 
@@ -137,6 +137,11 @@
 // console.log(Math.sign(123));
 // console.log(Math.sign(-123));
 // console.log(Math.sign("-123"));
+
+// console.log(Math.sign(2));
+// console.log(Math.sign(-2));
+// console.log(Math.sign(-0));
+// console.log(Math.sign(0));
 
 // let obj = { name: "webbrain", child: null };
 // console.log(obj.child.age); // error qaytardi

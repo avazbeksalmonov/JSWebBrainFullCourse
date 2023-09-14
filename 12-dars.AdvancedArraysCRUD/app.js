@@ -13,7 +13,6 @@ let students = [
 const addUser = (user) => {
     students = [...students, { id: students.length + 1, ...user }];
 };
-
 const sortByYear = () => {
     let res = students.sort((a, b) => b.year - a.year);
     students = res;

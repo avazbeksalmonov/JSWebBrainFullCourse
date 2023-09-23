@@ -21,7 +21,7 @@ let user2 = {
 Object.prototype.fullName = function () {
   console.log(this.name + " " + this.last);
 };
-Object.fullName(user);
+// Object.fullName(user);
 user.fullName();
 user2.fullName();
 

@@ -40,7 +40,7 @@ user1.welcomeMsg = "Webbrain";
 user1.welcomeMsg;
 user2.welcomeMsg();
 
-// ** Compuned named **
+// ** Computed named **
 
 class Users {
     ["web" + "brain"](title) {

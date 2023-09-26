@@ -59,3 +59,65 @@ console.log(a === t); //true<br>
 bir-biriga teng bo’lmayd,har-biri uchun alohida id ochiladi<br>
 
  </span>
+
+ <h3>2-dars</h3>
+ <div>
+ <b>2-dars.Type conversion</b>
+True = !0,!null,!undefined<br>
+console.log(true == 1); // true<br>
+console.log(true === 1); // fasle<br>
+console.log(true == 0); // false<br>
+console.log(true === 0); // false<br>
+console.log(true == "1"); //true<br>
+console.log(true == "a"); //false<br>
+console.log(true == null); // false<br>
+console.log(true == undefined); // false<br>
+//false<br><br>
+console.log(false == 1); // false<br>
+console.log(false === 1); //false<br>
+console.log(false == 0); // true<br>
+console.log(false === 0); // false<br>
+console.log(false == "0"); // true<br>
+console.log(false == "a"); // false<br>
+console.log(false == null); // false<br>
+console.log(false == undefined); // true<br>
+
+++ increment, -- decrement<br>
+Comparision – taqqoslash<br>
+Ma’limotlarni taqqoslash uchun ishlatiladi, doim true yoki false qaytaradi<br>
+<,>,==,===,<=,>=,!<br>
+
+let a = 5;<br>
+let b = "5";<br>
+
+console.log(a == b); // true<br>
+console.log(a === b); // false<br>
+// 3talik tenglikda ham qiymatga,ma'lumot turiga qarab taqqoslaydi<br>
+
+let str1 = "A";<br>
+let str2 = "a";<br>
+
+console.log(str1 > str2); // false<br>
+console.log(str1 < str2); // true<br>
+//ASCII Table<br>
+
+!= , === <br>
+!== , ===<br>
+<b>Logical operator – ||OR, &&AND, NOT</b><br>
+
+1. || OR
+   console.log(true || true); // true<br>
+   console.log(true || false); // true<br>
+   console.log(false || true); // true<br>
+   console.log(false || false); // false<br>
+   1tasi true bo’lsa ham true qaytaradi<br>
+   2.&&AND<br>
+   console.log(true && true); // true<br>
+   console.log(true && false); // false<br>
+   console.log(false && true); // false<br>
+   console.log(false && false); // false<br>
+   har ikki tomon ham true, bo’lsa true qaytaradi,aks holsa false<br>
+   3.NOT – hamma narsani aksi<br>
+   console.log(!(true == false)); // true<br>
+
+ </div>

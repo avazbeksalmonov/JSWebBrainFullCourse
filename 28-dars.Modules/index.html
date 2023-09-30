@@ -6,6 +6,19 @@
     <title>Document</title>
   </head>
 
-  <body></body>
-  <script src="app.js"></script>
+  <body>
+    <h1>Modules</h1>
+  </body>
+  <script type="module">
+    import { users as newUsers, list } from "./mock.js";
+    import students, { mentors, students as Nst } from "./webbrain.js";
+    import "./prototype.js";
+    console.log(list);
+    mentors();
+    students();
+    Nst();
+    users.map((value, index) => {
+      console.log(index + 1, "-", value.name);
+    });
+  </script>
 </html>

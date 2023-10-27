@@ -1,0 +1,30 @@
+/* .box {
+  width: 70px;
+  height: 150px;
+  background-color: blue;
+  overflow: auto;
+  color: #fff;
+  font-size: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 46px;
+  position: sticky;
+  top: 0;
+  margin-top: 20px;
+  transition: all 0.7s ease;
+  /* box-shadow: 2px 2px 5px red; */
+}
+
+.item {
+  color: #fff;
+  padding: 5px;
+}

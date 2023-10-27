@@ -1,0 +1,11 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
+
+#container {
+  width: 220px;
+  padding: 10px;
+  border: 2px solid rgb(8, 219, 18);
+}

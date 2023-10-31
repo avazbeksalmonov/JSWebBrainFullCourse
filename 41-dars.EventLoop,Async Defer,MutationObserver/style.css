@@ -1,0 +1,10 @@
+p {
+  padding: 10px;
+  border: 1px solid crimson;
+  border-radius: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  color: red;
+}

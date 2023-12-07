@@ -18,7 +18,7 @@
 
 //Async / Defer - img ref
 // *** general ** - parse HTML / download js / execute js / continue html parse
-// *** asyns *** - parse HTML and download js in the same time then execute parse
+// *** async *** - parse HTML and download js in the same time then execute parse
 // *** defer *** - parse HTML and download js in the same time completely
 // ** explain by execute order in html!
 

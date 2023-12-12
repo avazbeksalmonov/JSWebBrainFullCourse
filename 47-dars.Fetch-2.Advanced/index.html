@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body></body>
+  <body>
+    <form name="formEvent">
+      <input type="text" id="email" />
+      <input type="text" id="password" />
+      <!-- <button id="login">Login</button> -->
+      <input type="file" id="file" name="file" />
+      <input type="submit" value="login" />
+    </form>
+    <button onclick="getCategory()">get Data</button>
+    <div id="category"></div>
+  </body>
   <script src="app.js"></script>
 </html>

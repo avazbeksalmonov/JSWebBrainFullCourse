@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LocalStorage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="path">LocalStorage</h1>
+    <h2>Who I'm: <span id="user"></span></h2>
+
+    <input id="login" type="text" />
+    <input id="pw" type="text" />
+    <button id="save">Login</button>
+    <h2>Count: <span id="count">1</span></h2>
+    <h2>Title: <span id="title"></span></h2>
+
+    <button onclick="plus()">+</button>
+    <button onclick="minus()">-</button>
+    <br />
+    <br />
+    <input id="inTitle" oninput="onChangeTitle(event)" type="text" />
+    <hr />
+    <button id="del">delete</button>
+    <button id="cl">clear</button>
+  </body>
+  <script src="app.js"></script>
+</html>
